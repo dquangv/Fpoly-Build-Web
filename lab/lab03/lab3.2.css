@@ -1,0 +1,21 @@
+p {
+    font-style: italic;
+}
+
+span {
+    font-weight: bold;
+    color: brown;
+}
+
+.doan1, .doan4 {
+    color: red;
+}
+
+.doan2 {
+    color: blue;
+}
+
+.doan3 {
+    color: green;
+}
+
