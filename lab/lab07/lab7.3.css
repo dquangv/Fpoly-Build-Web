@@ -1,0 +1,48 @@
+body {
+    margin: 0px;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.container > header {
+    background: url('TBT06810.jpg') no-repeat;
+    background-size: 100% 200%;
+    background-position: 50%;
+    height: 300px;
+    position: relative;
+}
+
+.info {
+    position: absolute;
+    bottom: 20px;
+    left: 15px;
+}
+
+.info > h2 {
+    color: white;
+    font-variant: small-caps;
+    font-size: 30px;
+}
+
+.info > hr,h4 {
+    color: orangered;
+}
+
+.log {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: orangered;
+    height: 35px;
+}
+
+.log > a {
+    color: white;
+    text-decoration: none;
+    margin: auto;
+    display: block;
+    float: left;
+}
