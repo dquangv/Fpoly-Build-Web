@@ -1,0 +1,55 @@
+.col-25 {
+    width: 25%;
+    float: left;
+}
+
+.prod {
+    border-radius: 10px;
+    box-shadow: 0 0 5px gray;
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+    position: relative;
+    height: 320px;
+}
+
+.prod > .name {
+    font-variant: small-caps;
+    color: orangered;
+    padding-top: 7px;
+    margin-bottom: 7px;
+}
+
+.prod > .image {
+    max-width: 98%;
+    height: 250px;
+    margin-bottom: 10px;
+}
+
+.prod > .price {
+    position: absolute;
+    left: 10px;
+    bottom: 10px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 25px;
+    color: orange;
+}
+
+.prod > .icons {
+    position: absolute;
+    right: 5px;
+    bottom: 10px;
+    width: 50px;
+    display: grid;
+}
+
+.prod > .icons > img {
+    width: 40px;
+    margin: 3px;
+}
+
+.prod > .new-icon {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
