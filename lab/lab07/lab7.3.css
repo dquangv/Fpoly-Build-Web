@@ -15,34 +15,70 @@ body {
     position: relative;
 }
 
-.info {
+.container .info {
     position: absolute;
     bottom: 20px;
     left: 15px;
 }
 
-.info > h2 {
+.container .info > h2 {
     color: white;
     font-variant: small-caps;
-    font-size: 30px;
+    font-size: 35px;
+    text-shadow: 0 0 10px orangered;
+    margin: 15px;
 }
 
-.info > hr,h4 {
+.container .info > h4 {
     color: orangered;
+    letter-spacing: 5px;
+    border-top: solid orangered thin;
+    padding-top: 15px;
+    margin-top: 5px;
 }
 
-.log {
+.container .log {
     position: absolute;
     top: 0;
     right: 0;
     background-color: orangered;
-    height: 35px;
+    line-height: 35px;
+    border-bottom-left-radius: 30px;
+    padding: 7px 15px;
 }
 
-.log > a {
+.container .log > a {
     color: white;
     text-decoration: none;
-    margin: auto;
-    display: block;
-    float: left;
+    font-variant: small-caps;
+    padding: 15px 5px;
+    font-size: 17px;    
+}
+
+.container > nav {
+    line-height: 40px;
+    background-color: orangered;
+    font-variant: small-caps;
+    position: relative;
+}
+
+.container > nav > .menu > a {
+    color: white;
+    text-decoration: none;
+    margin: 0px 10px;
+    font-size: 17px;
+}
+
+.container > nav > .language {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
+
+.container > nav > .language > a {
+    color: white;
+    font-variant: small-caps;
+    margin: 0px 10px;
+    font-size: 17px;
+    text-decoration: none;
 }
