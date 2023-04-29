@@ -30,6 +30,7 @@ body {
     margin: 0px;
     background-color: rgb(255, 145, 0);
     padding: 0px;
+    text-align: center;
 }
 
 .container > nav > ul > li {
@@ -83,4 +84,48 @@ body {
     color: white;
     text-shadow: 0 0 3px red;
     padding: 0 10px;
+}
+
+.container > aside {
+    float: right;
+}
+
+.container > aside > ul {
+    list-style: none;
+    box-shadow: 0 0 3px gray;
+    margin: 5px 5px;
+    padding: 0px;
+    width: 250px;
+}
+
+.container > aside > ul > li {
+    background: url('pic/hinhtron.jpg') no-repeat;
+    padding: 10px 40px;
+    border-bottom: dotted orange thin;
+}
+
+.container > aside > ul > li > a {
+    text-decoration: none;
+    font-variant: small-caps;
+    color: orange;
+}
+
+.container > aside > ul > li:hover {
+    background: url('pic/muiten.jpg') no-repeat orange;
+    background-position-y: 70%;
+    border-bottom: white;
+}
+
+.container > aside > ul > li:hover > a {
+    color: white;
+    font-weight: bold;
+}
+
+.container > footer {
+    clear: both;
+    border-top: double orange thick;
+    text-align: center;
+    font-variant: small-caps;
+    line-height: 40px;
+    background-color: lightcyan;
 }
