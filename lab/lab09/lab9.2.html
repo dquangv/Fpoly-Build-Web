@@ -8,18 +8,18 @@
 
     <body>
         <div class="form-group">
-            <div>Họ và tên</div>
-            <input type="text" name="FullName" class="form-control">
-            <div>Giới tính:</div>
-            <input type="radio" name="Sex" class="form-control">
-            <div>Nam</div>
-            <input type="radio" name="Sex" class="form-control">
-            <div>Nữ</div>
-            <div>Hình ảnh:</div>
-            <input type="file" name="file" class="form-control">
-            <div>Quốc tịch:</div>
-            <select name="Country" class="form-control">
-                <option value="US">United States</option>
+            <label for="name">Họ và tên:</label><br>
+            <input type="text" name="FullName" id="name"><br><br>
+            <label for="sex">Giới tính:</label>
+            <input type="radio" name="Sex" id="sex" checked>
+            <label for="man">Nam</label>
+            <input type="radio" name="Sex" id="sex">
+            <label for="woman">Nữ</label><br><br>
+            <label for="picture">Hình ảnh:</label><br>
+            <input type="file" name="file" id="picture"><br><br>
+            <label for="nation">Quốc tịch:</label><br>
+            <select name="Country" id="nation">
+                <option value="VN">Việt Nam</option>
                 <option value="AF">Afghanistan</option>
                 <option value="AX">Aland Islands</option>
                 <option value="AL">Albania</option>
@@ -258,12 +258,13 @@
                 <option value="UA">Ukraine</option>
                 <option value="AE">United Arab Emirates</option>
                 <option value="GB">United Kingdom</option>
+                <option value="US">United States</option>
                 <option value="UM">United States Minor Outlying Islands</option>
                 <option value="UY">Uruguay</option>
                 <option value="UZ">Uzbekistan</option>
                 <option value="VU">Vanuatu</option>
                 <option value="VE">Venezuela</option>
-                <option value="VN">Viet Nam</option>
+                <option value="VN">Việt Nam</option>
                 <option value="VG">Virgin Islands, British</option>
                 <option value="VI">Virgin Islands, U.s.</option>
                 <option value="WF">Wallis and Futuna</option>
@@ -271,21 +272,21 @@
                 <option value="YE">Yemen</option>
                 <option value="ZM">Zambia</option>
                 <option value="ZW">Zimbabwe</option>
-            </select>
-            <div>Sở thích:</div>
-            <input type="checkbox" name="Hobby" class="form-control">
-            <div>Thể thao</div>
-            <input type="checkbox" name="Hobby" class="form-control">
-            <div>Du lịch</div>
-            <input type="checkbox" name="Hobby" class="form-control">
-            <div>Âm nhạc</div>
-            <input type="checkbox" name="Hobby" class="form-control">
-            <div>Ẩm thực</div>
-            <div>Ghi chú:</div>
-            <textarea name="Note" cols="30" rows="10" class="form-control"></textarea>
+            </select><br><br>
+            <label for="hobby">Sở thích:</label><br>
+            <input type="checkbox" name="Hobby" id="hobby">
+            <label for="hobby">Thể thao</label>
+            <input type="checkbox" name="Hobby" id="hobby" checked>
+            <label for="hobby">Du lịch</label>
+            <input type="checkbox" name="Hobby" id="hobby">
+            <label for="hobby">Âm nhạc</label>
+            <input type="checkbox" name="Hobby" id="hobby">
+            <label for="hobby">Ẩm thực</label><br><br>
+            <label for="note">Ghi chú:</label><br>
+            <textarea name="Note" cols="46" rows="3" id="note"></textarea>
             <hr>
-            <input type="submit" value="Đăng ký" class="form-control">
-            <input type="submit" value="Nhập lại" class="form-control">
+            <input type="submit" value="Đăng ký">
+            <input type="submit" value="Nhập lại">
         </div>
     </body>
 </html>

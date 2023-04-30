@@ -1,7 +1,17 @@
 .form-group {
-    width: 250px;
+    width: 360px;
 }
 
-.form-control {
-    max-width: 250px;
+.form-group > label {
+    font-variant: small-caps;
+    font-weight: bold;
+}
+
+input[type=text] {
+    width: 356px;
+    padding: 0px;
+}
+
+select {
+    width: 360px;
 }
