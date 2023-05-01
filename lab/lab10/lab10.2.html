@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Form</title>
+        <link rel="stylesheet" href="">
+    </head>
+
+    <body>
+        <form>
+            <div class="form-group">
+                <label for="name">Họ và tên:</label><br>
+                <input type="text" id="name" class="form-control">    
+            </div>
+
+            <fieldset>
+                <label for="sex">Giới tính:</label><br>
+                <input type="radio" id="sex">Nam
+                <input type="radio" id="sex">Nữ
+            </fieldset>
+
+            <div class="form-group">
+                <label for="birthday">Ngày sinh:</label><br>
+                <input type="date" id="birthday" class="form-control">
+            </div>
+
+            <div class="form-group">
+                <label for="mark">Điểm:</label>
+                <input type="number" id="mark" class="form-control" value="0.25" min="0" max="10" step="0.25">
+            </div>
+
+            <div class="form-group">
+                <label for="occupation">Nghề nghiệp:</label>
+                <input list="occupation" class="form-control">
+                <datalist id="occupation">
+                    <option value="Artist">
+                    <option value="Chef">
+                    <option value="Doctor">
+                    <option value="Police">
+                    <option value="Teacher">
+                    <option value="Pilot">
+                    <option value="Engineer">
+                    <option value="Scientist">
+                    <option value="Farmer">
+                    <option value="Singer">
+                </datalist>
+            </div>
+
+            <fieldset>
+                <label for="hobby">Sở thích:</label>
+                <input type="checkbox" id="hobby">Thể thao
+                <input type="checkbox" id="hobby">Du lịch
+                <input type="checkbox" id="hobby">Âm nhạc
+                <input type="checkbox" id="hobby">Ẩm thực
+            </fieldset>
+
+            <div class="form-group">
+                <label for="note">Ghi chú:</label><br>
+                <textarea name="Note" id="note" cols="30" rows="10"></textarea>
+            </div>
+            <hr>
+            <div class="form-group">
+                <button class="form-button">Đăng ký</button>
+                <button class="form-button">Nhập lại</button>
+            </div>
+        </form>
+    </body>
+</html>

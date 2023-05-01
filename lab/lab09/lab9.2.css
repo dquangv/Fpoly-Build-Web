@@ -1,5 +1,7 @@
 .form-group {
     width: 360px;
+    font-weight: bold;
+    font-variant: small-caps;
 }
 
 .form-group > label {
@@ -14,4 +16,8 @@ input[type=text] {
 
 select {
     width: 360px;
+}
+
+input[type=radio] {
+    font-weight: bold;
 }
