@@ -3,7 +3,7 @@
 <html>
     <head>
         <title>Form</title>
-        <link rel="stylesheet" href="">
+        <link rel="stylesheet" href="lab10.2.css">
     </head>
 
     <body>
@@ -12,25 +12,25 @@
                 <label for="name">Họ và tên:</label><br>
                 <input type="text" id="name" class="form-control">    
             </div>
-
+            <br>
             <fieldset>
-                <label for="sex">Giới tính:</label><br>
-                <input type="radio" id="sex">Nam
-                <input type="radio" id="sex">Nữ
+                <legend>Giới tính:</legend>
+                <input type="radio">Nam
+                <input type="radio">Nữ
             </fieldset>
-
+            <br>
             <div class="form-group">
                 <label for="birthday">Ngày sinh:</label><br>
                 <input type="date" id="birthday" class="form-control">
             </div>
-
+            <br>
             <div class="form-group">
-                <label for="mark">Điểm:</label>
+                <label for="mark">Điểm:</label><br>
                 <input type="number" id="mark" class="form-control" value="0.25" min="0" max="10" step="0.25">
             </div>
-
+            <br>
             <div class="form-group">
-                <label for="occupation">Nghề nghiệp:</label>
+                <label for="occupation">Nghề nghiệp:</label><br>
                 <input list="occupation" class="form-control">
                 <datalist id="occupation">
                     <option value="Artist">
@@ -45,18 +45,18 @@
                     <option value="Singer">
                 </datalist>
             </div>
-
+            <br>
             <fieldset>
-                <label for="hobby">Sở thích:</label>
-                <input type="checkbox" id="hobby">Thể thao
-                <input type="checkbox" id="hobby">Du lịch
-                <input type="checkbox" id="hobby">Âm nhạc
-                <input type="checkbox" id="hobby">Ẩm thực
+                <legend>Sở thích:</legend>
+                <input type="checkbox">Thể thao
+                <input type="checkbox">Du lịch
+                <input type="checkbox">Âm nhạc
+                <input type="checkbox">Ẩm thực
             </fieldset>
-
+            <br>
             <div class="form-group">
                 <label for="note">Ghi chú:</label><br>
-                <textarea name="Note" id="note" cols="30" rows="10"></textarea>
+                <textarea name="Note" id="note" cols="58" rows="3"></textarea>
             </div>
             <hr>
             <div class="form-group">
