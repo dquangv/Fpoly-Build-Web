@@ -11,7 +11,12 @@ form {
     width: 442px;
 }
 
-.form-group > input:focus {
+.form-group > input, textarea {
+    outline: none;
+    border: 1px solid gray;
+}
+
+.form-group > input:focus, textarea:focus {
     background-color: yellow;
     box-shadow: 0 0 3px red;
     border: 1px solid yellow;
@@ -37,6 +42,14 @@ legend {
     font-weight: lighter;
 }
 
-input[type="radio"]:after {
+input[type=radio] {
+    appearance: none;
+    background-color: rgb(224, 222, 222);
+    border-radius: 50%;
+    padding: 6px;
+    border: 1px solid gray;
+}
+
+input[type=radio]:checked {
     background-color: gray;
 }
