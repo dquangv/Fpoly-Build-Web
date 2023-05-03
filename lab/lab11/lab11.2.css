@@ -1,11 +1,13 @@
 table {
-    background-color: rgb(74, 172, 238);
-    
+    background-color: rgb(87, 161, 211);
+    text-align: center;
 }
 
 tr > th {
-    background-color: rgb(35, 98, 180);
+    background-color: rgb(43, 101, 177);
     color: white;
+    font-weight: lighter;
+    font-size: 15px;
 }
 
 tr:nth-child(even) {
@@ -13,5 +15,11 @@ tr:nth-child(even) {
 }
 
 tr:nth-child(odd) {
-    background-color: rgb(228, 228, 228);
+    background-color: rgb(233, 233, 233);
+}
+
+tr > th, td {
+    padding: 10px 15px;
+    border: thin;
+    font-size: 15px;
 }
