@@ -1,0 +1,42 @@
+body {
+    width: 1000px;
+    margin: auto;
+}
+
+table {
+    width: 800px;
+}
+
+tr {
+    height: 170px;
+}
+
+td > * {
+    text-decoration: none;
+}
+
+td:nth-child(2) > a {
+    width: 530px;
+    height: 110px;
+    display: block;
+    margin-bottom: 30px;
+}
+
+.cap {
+    color: rgb(24, 137, 175);
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+.content {
+    color: initial;
+}
+
+.fb-like {
+    width: 800px;
+    background-color: rgb(194, 194, 194);
+}
+
+.fb-comments {
+    height: 400px;
+}
