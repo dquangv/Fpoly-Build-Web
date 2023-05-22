@@ -21,13 +21,25 @@
     
                 <nav>
                     <ul>
-                        <li><a href="#">SỨC KHOẺ</a></li>
+                        <li>
+                            <a href="#">SỨC KHOẺ</a>
+                            <div class="category_healthy">
+                                <ul>
+                                    <li>Thực phẩm chức năng</li>
+                                    <li>Hỗ trợ sinh sản</li>
+                                    <li>Vật tư y tế</li>
+                                    <li>Dụng cụ massage và trị liệu</li>
+                                </ul>
+                            </div>
+                        </li>
+
                         <li><a href="#">LÀM ĐẸP</a></li>
                     </ul>       
                 </nav>
             </div>
 
             <div class="button">
+                <button class="user"><i class="fa-solid fa-user"></i></button>
                 <button class="search"><i class="fas fa-search"></i></button>
                 <button class="cart"><i class="fa-solid fa-cart-shopping"></i></button>
             </div>
@@ -73,8 +85,7 @@
                     <i class="fa-brands fa-tiktok"></i>
                 </div>
                 <div class="story">
-                    <strong>VỀ skdVIETNAM</strong>
-                    <br><br>
+                    <h4>VỀ skdVIETNAM</h4>
                     Giới thiệu về skdVIETNAM
                     <br>
                     skdVIETNAM Blog
@@ -88,15 +99,13 @@
                     Bán hàng doanh nghiệp
                 </div>
                 <div class="collab">
-                    <strong>HỢP TÁC VÀ LIÊN KẾT</strong>
-                    <br><br>
+                    <h4>HỢP TÁC VÀ LIÊN KẾT</h4>
                     Quy chế hoạt động Sàn GDTMĐT
                     <br>
                     Bán hàng cùng skdVIETNAM
                 </div>
                 <div class="support">
-                    <strong>HỖ TRỢ KHÁCH HÀNG</strong>
-                    <br><br>
+                    <h4>HỖ TRỢ KHÁCH HÀNG</h4>
                     Hotline: 1234-5678
                     <br>
                     Các câu hỏi thường gặp
@@ -114,13 +123,15 @@
                     Chính sách hàng nhập khẩu
                 </div>
                 <div class="subscribe">
-                    <strong>ĐĂNG KÝ</strong>
-                    <br><br>
+                    <h4>ĐĂNG KÝ</h4>
                     Hãy là người đầu tiên nhận được thông tin ưu đãi của skdVIETNAM. Bạn có thể huỷ đăng kí bất cứ lúc nào.
                     <br>
-                    <input type="Email">
-                    <input type="First Name">
-                    
+                    <input size="30" type="Email" value="Email">
+                    <input size="30" type="First Name" value="Họ tên">
+                    Giới tính:
+                    <input type="radio" value="Name" id="nam" name="sex"><label for="nam">Nam</label>
+                    <input type="radio" value="Name" id="nu" name="sex"><label for="nu">Nữ</label><br>
+                    <button>Đăng ký</button>
                 </div>
             </div>
             <div class="copyright">&copy; skdVIETNAM 2023, All Rights Reserved.</div>

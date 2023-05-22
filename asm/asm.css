@@ -33,6 +33,14 @@ body {
     display: inline-block;
 }
 
+.menu-left > nav > ul > li {
+    position: relative;
+}
+
+.menu-left > nav > ul ul {
+    position: absolute;
+}
+
 .menu-left .logo > a {
     display: inline-block;
     text-decoration: none;
@@ -65,7 +73,6 @@ body {
 
 .menu-left nav > ul > li:hover {
     text-decoration: underline;
-    background-color: rgb(235, 235, 235);
 }
 
 .menu-left nav > ul > li > a {
@@ -85,8 +92,9 @@ body {
     margin: 0 5px;
 }
 
-.fa-search, .fa-cart-shopping {
+.fa-user, .fa-search, .fa-cart-shopping {
     padding: 5px;
+    border: none;
 }
 
 .background {
@@ -145,7 +153,7 @@ article > .article-left, .article-right > h3 {
 footer {
     color: white;
     background-color: black;
-    height: 587px;
+    height: 650px;
 }
 
 footer > .info_end {
@@ -154,10 +162,15 @@ footer > .info_end {
 }
 
 footer > .info_end > .contact, .story, .collab, .support, .subscribe {
-    display: inline-block;
+    float: left;
     width: 10%;
     text-align: left;
-    margin: 50px 70px;
+    margin: 50px 80px;
+}
+
+footer > .info_end > .contact {
+    margin-left: 120px;
+    width: 100px;
 }
 
 footer > .info_end > .contact > img {
@@ -171,11 +184,54 @@ footer > .info_end > .contact > i {
 }
 
 footer > .info_end > .story, .collab, .support {
-    line-height: 50px;
+    line-height: 40px;
+}
+
+footer > .info_end > .support {
+    width: 250px;
+}
+
+footer > .info_end > .subscribe {
+    width: 300px;
+    line-height: 30px;
+}
+
+footer > .info_end > .subscribe > strong {
+    line-height: 40px;
+}
+
+footer h4 {
+    margin: 0;
+    font-size: 17px;
+}
+
+footer .subscribe input {
+    padding: 12px;
+    margin: 10px;
+    margin-left: 0px;
+    color: white;
+    background-color: rgb(43, 42, 42);
+    border: 1px solid white;
+    font-size: 15px;
+}
+
+footer .subscribe label {
+    margin-right: 5px;
+}
+
+footer .subscribe button {
+    padding: 12px;
+    width: 300px;
+    font-size: 15px;
+    color: white;
+    background-color: black;
+    border: 1px solid white;
+    margin-top: 10px;
 }
 
 footer > .copyright {
-    height: 15%;
+    height: 15px;
     font-size: 13px;
     margin-left: 70px;
+    clear: left;
 }
