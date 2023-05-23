@@ -30,15 +30,7 @@ body {
     width: 200px;
     height: 46px;
     text-align: center;
-    display: inline-block;
-}
-
-.menu-left > nav > ul > li {
-    position: relative;
-}
-
-.menu-left > nav > ul ul {
-    position: absolute;
+    float: left;
 }
 
 .menu-left .logo > a {
@@ -51,19 +43,18 @@ body {
     height: 46px;
 }
 
-.menu-left nav {
+.menu-left .nav {
     display: inline-block;
     border: 0px;
 }
 
-.menu-left nav > ul {
-    display: inline-block;
+.menu-left .nav > ul {
     list-style: none;
     padding: 0px;
     margin: 0px auto;
 }
 
-.menu-left nav > ul > li {
+.menu-left .nav > ul > li {
     display: inline-block;
     width: 100px;
     text-align: center;
@@ -71,11 +62,11 @@ body {
     height: 46px;
 }
 
-.menu-left nav > ul > li:hover {
-    text-decoration: underline;
+.menu-left .nav > ul > li:hover {
+    background-color: rgb(225, 247, 248);
 }
 
-.menu-left nav > ul > li > a {
+.menu-left .nav > ul > li > a {
     display: block;
     text-decoration: none;
     color: black;
@@ -83,18 +74,49 @@ body {
     height: 46px;
 }
 
+.menu-left > .nav > ul ul {
+    position: absolute;
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    background-color: rgb(225, 247, 248);
+    display: none;
+}
+
+.menu-left .nav > ul > li:hover > ul {
+    display: block;
+}
+
+.menu-left > .nav > ul ul > li {
+    text-align: left;
+}
+
+.menu-left > .nav > ul ul > li:hover {
+    background-color: white;
+}
+
+.menu-left > .nav > ul ul > li > a {
+    text-decoration: none;
+    color: black;
+    display: block;
+    width: 218px;
+    height: 56px;
+    padding: 5px 20px;
+}
+
 .menu .button {
     position: absolute;
-    right: 10px;
-    top: 9px;
+    right: 0;
+    top: 0;
+    height: 46px;
 }
-.menu .button > * {
-    margin: 0 5px;
+.menu .button img {
+    margin-top: 10px;
+    margin-right: 10px;
 }
 
 .fa-user, .fa-search, .fa-cart-shopping {
     padding: 5px;
-    border: none;
 }
 
 .background {
@@ -173,14 +195,17 @@ footer > .info_end > .contact {
     width: 100px;
 }
 
+footer > .info_end > .contact > i {
+    margin: 5px;
+}
+
 footer > .info_end > .contact > img {
     width: 85px;
     height: 70px;
 }
 
-
-footer > .info_end > .contact > i {
-    margin: 0 7px;
+footer > .info_end > .contact > i > a {
+    width: 5px;
 }
 
 footer > .info_end > .story, .collab, .support {
