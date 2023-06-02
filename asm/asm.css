@@ -1,7 +1,6 @@
 body {
     margin: 0px;
     padding: 0px;
-    background-color: rgb(245, 245, 245);;
 }
 
 .promo_bar {
@@ -31,7 +30,7 @@ body {
     float: left;
 }
 
-.menu-left .logo > a {
+.menu-left .logo>a {
     display: inline-block;
     text-decoration: none;
     font-size: 20px;
@@ -46,13 +45,13 @@ body {
     border: 0px;
 }
 
-.menu-left .nav > ul {
+.menu-left .nav>ul {
     list-style: none;
     padding: 0px;
     margin: 0px auto;
 }
 
-.menu-left .nav > ul > li {
+.menu-left .nav>ul>li {
     display: inline-block;
     width: 100px;
     text-align: center;
@@ -60,11 +59,11 @@ body {
     height: 46px;
 }
 
-.menu-left .nav > ul > li:hover {
+.menu-left .nav>ul>li:hover {
     background-color: rgb(225, 247, 248);
 }
 
-.menu-left .nav > ul > li > a {
+.menu-left .nav>ul>li>a {
     display: block;
     text-decoration: none;
     color: black;
@@ -72,7 +71,7 @@ body {
     height: 46px;
 }
 
-.menu-left > .nav > ul ul {
+.menu-left>.nav>ul ul {
     position: absolute;
     padding: 0px;
     margin: 0px;
@@ -81,19 +80,19 @@ body {
     display: none;
 }
 
-.menu-left .nav > ul > li:hover > ul {
+.menu-left .nav>ul>li:hover>ul {
     display: block;
 }
 
-.menu-left > .nav > ul ul > li {
+.menu-left>.nav>ul ul>li {
     text-align: left;
 }
 
-.menu-left > .nav > ul ul > li:hover {
+.menu-left>.nav>ul ul>li:hover {
     background-color: white;
 }
 
-.menu-left > .nav > ul ul > li > a {
+.menu-left>.nav>ul ul>li>a {
     text-decoration: none;
     color: black;
     display: block;
@@ -108,12 +107,15 @@ body {
     top: 0;
     height: 46px;
 }
+
 .menu .button img {
     margin-top: 10px;
     margin-right: 10px;
 }
 
-.fa-user, .fa-search, .fa-cart-shopping {
+.fa-user,
+.fa-search,
+.fa-cart-shopping {
     padding: 5px;
 }
 
@@ -131,7 +133,7 @@ body {
     line-height: 29px;
 }
 
-.promo_bonus > p {
+.promo_bonus>p {
     display: inline-block;
     color: white;
     margin-right: 45px;
@@ -140,81 +142,67 @@ body {
     letter-spacing: 1px;
 }
 
-.promo_bonus > i {
+.promo_bonus>i {
     color: white;
 }
 
-.health {
-    width: 1700px;
-    height: 750px;
-    margin: 20px 0px;
-    background-color: rgb(221, 219, 219);
+.background-product {
+    width: 1800px;
+    background-color: pink;
 }
 
-.health .health-left, .health-right {
-    float: left;
-    height: 750px;
+.best-seller1, .best-seller2 {
+    max-width: 1900px;
+    height: 700px;
 }
 
-.health .health-left {
-    background: url(pic/health-left.jpg) no-repeat;
-    width: 600px;
-}
-
-.health .health-right {
-    width: 1100px;
-}
-
-.health .health-right .content-health {
-    margin: 100px auto;
-    width: 80%;
-    height: 600px;
-}
-
-.health .health-right .content-health > h1 {
+.best-seller1>h1 {
     font-size: 50px;
+    text-align: center;
 }
 
-.health .health-right .content-health > p {
-    font-size: 30px;
-}
-
-.beauty {
-    float: right;
-    width: 1700px;
-    height: 750px;
-    margin: 20px 0px;
-    background-color: rgb(238, 224, 237);
-}
-
-.beauty .beauty-left, .beauty-right {
+.column {
+    width: 20%;
     float: left;
-    height: 750px;
-
+    margin: 20px 10px;
+    margin-left: 65px;
+    background-color: white;
+    border: 3px solid #f6f6f6;
 }
 
-.beauty .beauty-left {
-    width: 1150px;
+.column:hover {
+    border: 3px solid pink;
 }
 
-.beauty .beauty-right {
-    width: 550px;
-    background: url(pic/beauty-right-1.jfif) no-repeat;
-    background-size: 100% 100%;
+.san-pham {
+    padding: 10px;
+    margin: 5px;
+    text-align: center;
+    height: 550px;
 }
 
-.beauty .beauty-left .content-beauty {
-    margin: 100px auto;
-    width: 80%;
-    height: 600px;
+.san-pham img {
+    max-width: 100%;
+    height: 350px;
+    padding-bottom: 20px;
 }
 
-.beauty .beauty-left .content-beauty > h1 {
-    font-size: 50px;
+.san-pham .ten {
+    font-size: 23px;
+    font-variant: small-caps;
+    color: black;
 }
 
-.beauty .beauty-left .content-beauty > p {
-    font-size: 30px;
+.san-pham .gia {
+    color: rgb(244, 121, 141);
+    font-weight: 900;
+    font-size: 23px;
+    margin-top: 15px;
+}
+
+.best-seller2 {
+    background-color: rgb(252, 242, 245);
+    margin-top: 20px;
 }
 
 footer {
@@ -224,50 +212,56 @@ footer {
     clear: both;
 }
 
-footer > .info_end {
+footer>.info_end {
     height: 85%;
     text-align: center;
 }
 
-footer > .info_end > .contact, .story, .collab, .support, .subscribe {
+footer>.info_end>.contact,
+.story,
+.collab,
+.support,
+.subscribe {
     float: left;
     width: 10%;
     text-align: left;
     margin: 50px 80px;
 }
 
-footer > .info_end > .contact {
+footer>.info_end>.contact {
     margin-left: 120px;
     width: 100px;
 }
 
-footer > .info_end > .contact > i {
+footer>.info_end>.contact>i {
     margin: 5px;
 }
 
-footer > .info_end > .contact > img {
+footer>.info_end>.contact>img {
     width: 85px;
     height: 70px;
 }
 
-footer > .info_end > .contact > i > a {
+footer>.info_end>.contact>i>a {
     width: 5px;
 }
 
-footer > .info_end > .story, .collab, .support {
+footer>.info_end>.story,
+.collab,
+.support {
     line-height: 40px;
 }
 
-footer > .info_end > .support {
+footer>.info_end>.support {
     width: 250px;
 }
 
-footer > .info_end > .subscribe {
+footer>.info_end>.subscribe {
     width: 300px;
     line-height: 30px;
 }
 
-footer > .info_end > .subscribe > strong {
+footer>.info_end>.subscribe>strong {
     line-height: 40px;
 }
 
@@ -304,7 +298,7 @@ footer .subscribe button:hover {
     box-shadow: 4px 4px gray;
 }
 
-footer > .copyright {
+footer>.copyright {
     height: 15px;
     font-size: 13px;
     margin-left: 70px;
