@@ -3,6 +3,10 @@ body {
     padding: 0px;
 }
 
+body a {
+    text-decoration: none;
+}
+
 .promo_bar {
     text-align: center;
     color: white;
@@ -120,7 +124,7 @@ body {
 }
 
 .background {
-    background-image: url(pic/background-5.jpeg);
+    background-image: url(../pic/background-5.jpeg);
     height: 737px;
     background-repeat: no-repeat;
     background-position: center;
@@ -151,7 +155,8 @@ body {
     background-color: pink;
 }
 
-.best-seller1, .best-seller2 {
+.best-seller1,
+.best-seller2 {
     max-width: 1900px;
     height: 700px;
 }
@@ -207,9 +212,9 @@ body {
 
 footer {
     color: white;
-    background-color: black;
     height: 650px;
     clear: both;
+    background-color: #000000c5;
 }
 
 footer>.info_end {
@@ -228,9 +233,19 @@ footer>.info_end>.contact,
     margin: 50px 80px;
 }
 
+footer>.info_end>.contact a,
+.story a,
+.collab a,
+.support a,
+.subscribe a {
+    text-decoration: none;
+    color: white;
+}
+
 footer>.info_end>.contact {
     margin-left: 120px;
-    width: 100px;
+    width: 200px;
+    margin-right: 0;
 }
 
 footer>.info_end>.contact>i {
@@ -238,12 +253,26 @@ footer>.info_end>.contact>i {
 }
 
 footer>.info_end>.contact>img {
-    width: 85px;
-    height: 70px;
+    width: 150px;
+    height: 150px;
 }
 
-footer>.info_end>.contact>i>a {
-    width: 5px;
+footer>.info_end>.contact> p {
+    font-size: 20px;
+    letter-spacing: 3px;
+}
+
+footer>.info_end>.contact a {
+    color: white;
+}
+
+footer>.info_end>.contact i {
+    margin: 15px;
+}
+
+footer>.info_end>.collab {
+    width: 250px;
+    margin: 50px 20px;
 }
 
 footer>.info_end>.story,
@@ -288,10 +317,13 @@ footer .subscribe button {
     padding: 12px;
     width: 300px;
     font-size: 15px;
-    color: white;
-    background-color: black;
+    background-color: rgb(43, 42, 42);
     border: 1px solid white;
     margin-top: 10px;
+}
+
+footer .subscribe button a {
+    color: white;
 }
 
 footer .subscribe button:hover {
