@@ -1,0 +1,10 @@
+body {
+    margin: 0;
+}
+
+header {
+    background-image: url('pic/background-1.jpg');
+    height: 500px;
+    margin: 0;
+    padding: 0;
+}
