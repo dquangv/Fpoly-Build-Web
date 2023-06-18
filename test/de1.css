@@ -1,0 +1,106 @@
+body {
+    margin: 0 auto;
+    width: 1000px;
+}
+
+header {
+    text-align: center;
+    background-image: url(pic/background-4.jpg);
+    height: 250px;
+}
+
+header h1 {
+    font-size: 70px;
+    font-weight: bolder;
+    letter-spacing: 10px;
+    padding-top: 55px;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 25px;
+    font-weight: bolder;
+    letter-spacing: 5px;
+    margin: 0;
+}
+
+.menu {
+    border-top: 2px solid black;
+    text-align: center;
+}
+
+.menu > ul > li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.menu > ul > li > a {
+    text-decoration: none;
+    color: pink;
+    font-variant: small-caps;
+    font-size: 20px;
+}
+
+.menu > ul > li > a:hover {
+    color: black;
+}
+
+nav > .promo {
+    float: left;
+    width: 25%;
+    text-align: center;
+    border: 1px solid white;
+    border-radius: 10px;
+    box-shadow: 0 0 5px gray;
+}
+
+nav > .promo > p {
+    color: pink;
+    font-variant: small-caps;
+}
+
+nav > .promo > img {
+    width: 100%;
+}
+
+nav > .product {
+    float: left;
+    width: 73%;
+    border: 1px solid gray;
+    text-align: center;
+    background-color: pink;
+}
+
+nav > .product > .detail_product {
+    float: left;
+    width: 21%;
+    border: 1px solid white;
+    box-shadow: 0 0 5px gray;
+    border-radius: 10px;
+    text-align: center;
+    padding: 0 10px;
+    background-color: pink;
+    height: 300px;
+    margin-left: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    transition: all .3s ease;
+}
+
+nav > .product > .detail_product:hover {
+    transform: scale(1.5);
+}
+
+nav > .product > .detail_product > p {
+    font-size: 9px;
+}
+
+nav > .product > .detail_product > img {
+    width: 100%;
+    margin: 0 5px;
+}
+
+nav > .product > .detail_product > span {
+    font-weight: bolder;
+}
